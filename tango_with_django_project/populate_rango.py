@@ -3,6 +3,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django_project.setti
 
 import django
 django.setup()
+
 from rango.models import Category, Page
 
 def populate():
